@@ -1,178 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>coding fitness Gym</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<link rel="stylesheet" href="css/style.css">
-<style>
-body{ 
-    color: rgb(152 199 110);
-    /* margin: 50px; */
-    /* padding: 0px; */
-    background-size: auto;
-    background-repeat:no-repeat;
-    background: url('imag/edgar-chaparro-sHfo3WOgGTU-unsplash.jpg');
-}
-.LS{
-    position: absolute;
-    display: inline-block;
-    left: 34px;
-    top: 22px;
-    /* border: 2px solid blue; */
-}
- .LS img{
-    width: 136px;
-    /* filter:invert(100%) */
 
-
- }
- .LS div{
-    line-height: 19px;
-    font-size: 26px;
-    text-align: center;
- }
-.MS{
-    display: block;
-    width: 37%;
-    margin: 12px auto;
-    /* border: 2px solid red; */
-}
-.RS{
-    position: absolute;
-    right: 34px;
-    top: 22px;
-    display: inline-block;
-    /* border: 2px solid yellow; */
-}
-.nevbar{
-    display:  inline-block;
-    font-size: 20px;
-}
-.nevbar li {
-    display: inline-block;
-    font-size: 25px;
-}
-.nevbar li a {
-    color: antiquewhite;
-    text-decoration: none;
-    padding: 34px 23px;
-    
-}
-.nevbar li a:hover, .nevbar li a.active{
-    text-decoration: underline;
-    color: gray;
-}
-.btn{margin: 0px 9px;
-background-color: black;
-color: white;
-padding: 4px 14px;
-/* border: 2px solid yellow; */
-border-radius: 10px;
-font-size: 20px;
-cursor: pointer;
-}
-.btn:hover{
-    background-color: rgb(242, 9, 9);
-}
-.container{
-   border: 2px solid yellow;
-    margin: 81px 69px;
-    padding: 75px;
-    width: 26%;
-    border-radius: 28px;
-    /* text-align: center; */
-    /* cursor: pointer */
-}
-.form-group input {
-      text-align: center;
-    display: block;
-    width: 303px;
-    padding: 1px;
-    border: 2px solid yellow;
-    margin: 14px auto;
-    border-radius: 8px;
-    font-size: 19px
-}
-.container h1{
-    text-align: center;
-}
-.container button{
-    display: block;
-    width: 42%;
-    margin: 30px auto;
-}
-
-</style>
 <body>
+    <header class="header">
+        <div class="LS">
+            <div id="mainText">Fitness<spna id="SecondText">Gym</spna></div>
+        </div>
+        <div class="MS">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
 
-<header class="header">
-    <div class="LS">
-<img src="imag/kelly-sikkema-IZOAOjvwhaM-unsplash.jpg" alt="">
-<div> coding Fitness Gym</div>
+        </div>
+        <div class="RS">
+            <button class="button">Call Us </button>
+            <button class="button">Email Us</button>
 
+        </div>
+    </header>
 
+    <div class="container">
+        <h1 class="dynamic-text">Join the best Gym of Nagpur</h1>
+        <p>First 100 members will get 50% off Hurry up!</p>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name ">
+            </div>
+            <div class="form-group">
+
+                <input type="text" name="" placeholder="Enter your Location">
+
+            </div>
+            <div class="form-group">
+
+                <input type="text" name="" placeholder="Enter your Phone Namber">
+
+            </div>
+            <div class="form-group">
+
+                <input type="text" name="" placeholder="Enter Your Age">
+            </div>
+            <button class="btn">Join Now</button>
+        </form>
 
     </div>
-    <div class="MS">
-<ul class="nevbar">
-    <li><a href="#" class="active">Home</a></li>
-    <li><a href="#">About us</a></li>
-    <li><a href="#">Fitness calculator</a></li>
-    <li><a href="#">Contact Us</a></li>
-</ul>
-
-    </div>
-    <div class="RS">
-<button>Call as </button><button>Email US</button>
-
-    </div>
-</header> 
-
-<div class="container">
-    <h1>Join the best gym of Nagpur now</h1>
-    <form action="noaction.php">
-        <div class="form-group">
-            <input type="text" name="" placeholder="Enter your Name ">
-          </div>
-          <div class="form-group">
-            
-<input type="text" name="" placeholder="Enter your Location">
-
-          </div>
-          <div class="form-group">
-           
-<input type="text" name="" placeholder="Enter your Phone Namber">
-
-          </div>
-          <div class="form-group">
-            
-          </div>
-          <div class="form-group">
-            
-<input type="text" name="" placeholder="Enter Your Age">
-          </div>
-          <button class="btn">Submit</button>
-    </form>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
 </body>
-</html>
 
-   
+</html>
